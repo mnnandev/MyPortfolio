@@ -1,0 +1,109 @@
+.services {
+  padding-top: 50px;
+  /* border: 1px solid #000; */
+  height: auto;
+}
+.heading {
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services__details {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-div {
+  display: flex;
+  column-gap: 10px;
+}
+.service__box {
+  background-color: var(--container-color);
+  border: 1px solid #00000012;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  position: relative;
+  padding: 20px;
+}
+.service__box .arrow-icon {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.service__box:hover .arrow-icon,
+.arrow-icon:hover {
+  transform: translateX(5px);
+}
+
+.view-more {
+  display: flex;
+}
+.webdesigner_detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  cursor:default;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Add a background color or opacity for the overlay effect */
+  z-index: 999; /* Ensure it appears above other elements */
+  
+  /* visibility: hidden; */
+  /* Add any additional styles you want for the webdesigner_detail */
+}
+.wd__innerdetail {
+  background-color: var(--container-color);
+  border: 1px solid #00000012;
+  border-radius: 0.75rem;
+  height: 450px;
+  width: 500px;
+  padding: 40px;
+}
+.close-btn {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.close-btn i {
+  font-size: 20px;
+}
+.box1 {
+  /* border: 1px solid #000; */
+  display: flex;justify-content: center;align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+.box1 p {
+  padding-top: 10px;
+  font-weight: 600;
+}
+.box2-detail {
+  /* border: 1px solid #000; */
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.box2-detail > p {
+  padding-left: 10px;
+  font-size: 15px;
+}
+.active-modal {
+  opacity: 1;
+  visibility: visible;
+}
+ 
