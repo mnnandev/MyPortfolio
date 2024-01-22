@@ -60,7 +60,7 @@ const Skill = () => {
         </div>
 
         { /* ================ Backend Skills =========== */ }
-        <div className="frontend__Skills">
+        {/* <div className="frontend__Skills">
           <h3 className="center">Backend</h3>
           <div className="skills_details">
             <div className="skills__box">
@@ -106,7 +106,7 @@ const Skill = () => {
               <p>Intermadiate</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
